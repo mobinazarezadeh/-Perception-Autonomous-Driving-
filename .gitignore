@@ -1,0 +1,10 @@
+KITTI training images/
+KITTI_yolo/images/
+OnAcademy's Project/
+yolov8n.pt
+yolo26n.pt
+*.pt
+__pycache__/
+.idea/
+KITTI_yolo/labels/
+KITTI training images/

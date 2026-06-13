@@ -1,0 +1,5 @@
+path: C:/Users/Mobina/PyCharmMiscProject/KITTI_yolo
+train: images/train
+val: images/val
+nc: 5
+names: ['Car', 'Pedestrian', 'Cyclist', 'Van', 'Truck']
