@@ -1,0 +1,19 @@
+model:
+  detector:
+    path: "runs/detect/kitti_yolov8/weights/best.pt"
+    conf: 0.5
+    iou: 0.45
+  
+  segmentor:
+    name: "nvidia/segformer-b0-finetuned-cityscapes-512-1024"
+  
+  depth:
+    name: "intel-isl/MiDaS-small"
+
+inference:
+  device: "cuda"
+  batch_size: 1
+
+api:
+  title: "Autonomous Driving Perception API"
+  version: "0.2.0"

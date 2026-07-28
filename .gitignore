@@ -1,0 +1,15 @@
+KITTI_yolo/
+runs/
+*.mp4
+*.avi
+scikit_learn_data/
+torch_cuda/
+val/
+venv/
+env/
+.idea/
+.vscode/
+__pycache__/
+*.pt
+*.pth
+*.onnx
